@@ -12,9 +12,7 @@
       "ruby"
     ],
     "addons": [
-      "heroku-postgresql:hobby-dev",
-      "memcachier:dev",
-      "cloudinary:starter"
+      "heroku-postgresql:hobby-dev"
     ],
     "scripts": {
       "postdeploy": "bin/rails db:migrate && bin/rails db:seed"
