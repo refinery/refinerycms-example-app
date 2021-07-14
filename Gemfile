@@ -63,3 +63,5 @@ gem 'refinerycms-wymeditor', git: 'https://github.com/parndt/refinerycms-wymedit
 
 # The default authentication adapter
 gem 'refinerycms-authentication-devise', git: 'https://github.com/refinery/refinerycms-authentication-devise', branch: 'master'
+
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
