@@ -167,7 +167,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    diffy (3.3.0)
+    diffy (3.4.2)
     dragonfly (1.2.0)
       addressable (~> 2.3)
       multi_json (~> 1.0)
