@@ -11,6 +11,14 @@
       "cms",
       "ruby"
     ],
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "heroku/ruby"
+      }
+    ],
     "addons": [
       "heroku-postgresql:hobby-dev"
     ],
@@ -31,5 +39,6 @@
       "SECRET_KEY_BASE": {
         "generator": "secret"
       }
-    }
+    },
+    "stack": "heroku-18"
   }
